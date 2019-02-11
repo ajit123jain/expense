@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "Expense Management Review apps",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "expense",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
