@@ -14,4 +14,46 @@
 		<a href="#" data-toggle="tooltip" data-placement="bottom" title="How long you need to take this"><i class="fa fa-info" aria-hidden="true"></i></a>
 		Ankit Kumar Jain
 	</div>
+	<p>followers count: <%= @followerscount %></p>
 </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How to count Instagram Followers  without authentication</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+</head>
+<body>
+
+
+ <div class="container">
+   <h3>Total Follower : <strong class="instagram"></strong></h3>
+ </div>
+
+
+ <script type="text/javascript">
+
+
+  var token = '4161216023.1677ed0.431793ced855424ca3d8797f2394e983';
+
+
+  $.ajax({
+      url: 'https://api.instagram.com/v1/users/self',
+      dataType: 'jsonp',
+      type: 'GET',
+      data: {access_token: token},
+      success: function(data){
+          var follows = data['data']['counts']['follows'];
+          $(".instagram").text(follows);
+      },
+      error: function(data){
+          console.log(data);
+      }
+  });
+
+
+ </script>
+
+
+</body>
+</html>
