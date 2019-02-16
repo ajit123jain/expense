@@ -36,6 +36,7 @@ gem 'jquery-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'figaro'
+gem 'devise'
 gem 'friendly_id', '~> 5.2.4'
 gem 'rails_admin', '~> 1.3'
 group :development, :test do
@@ -43,7 +44,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
+  gem 'pry-rails'
   gem 'selenium-webdriver'
+  gem 'twitter'
 end
 
 group :development do
