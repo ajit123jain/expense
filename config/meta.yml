@@ -1,0 +1,5 @@
+meta_product_name: "Expense Managment"
+meta_title: "Expense Managment - Enjoy Your Money"
+meta_description: "Relevant description This is relevant to yourself"
+meta_image: "event3.jpeg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards

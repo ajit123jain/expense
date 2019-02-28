@@ -1,7 +1,8 @@
 class WelcomeController < ApplicationController
   def index
     @comanies = 5
-    # binding.pry
-    # @followerscount = client.followers('ajit123jain').count#client.user_timeline("ajit123jain")
+    @followerscount = JSON.parse(client.user('ajit123jain').to_json)["followers_count"]
+    client = LinkedIn::Client.new(ENV['LINKEDIN_CLIENT_ID'], ENV['LINKEDIN_CLIENT_SECRET'])
   end
 end
+

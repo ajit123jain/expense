@@ -35,6 +35,11 @@ gem 'bootstrap', '~> 4.2.1'  #Bootstrap dependent on jQuery so JQuey added
 gem 'jquery-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'koala'
+gem 'instagram_api_client'
+gem 'instagram'
+#gem "linkedin-oauth2", "~> 1.0"
+gem 'linkedin'
 gem 'figaro'
 #gem 'devise'
 gem 'friendly_id', '~> 5.2.4'
