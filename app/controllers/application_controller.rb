@@ -3,13 +3,13 @@ class ApplicationController < ActionController::Base
   # require 'twitter'
   
   private
-    def client
-      Twitter::REST::Client.new do |config|
-        config.consumer_key = ENV['CONSUMER_KEY']
-        config.consumer_secret = ENV['CONSUMER_SECRET']
-        config.access_token = ENV['access_token']
-        config.access_token_secret = ENV['access_secret']
-      end
+    # def client
+    #   Twitter::REST::Client.new do |config|
+    #     config.consumer_key = ENV['CONSUMER_KEY']
+    #     config.consumer_secret = ENV['CONSUMER_SECRET']
+    #     config.access_token = ENV['access_token']
+    #     config.access_token_secret = ENV['access_secret']
+    #   end
     end
 
     def insta
