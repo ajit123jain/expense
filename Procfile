@@ -1,2 +1,2 @@
 heroku ps:scale web=2
-web: bundle exec rails server -p $PORT
+web: bundle exec rails server -p ${PORT:-3000} 
