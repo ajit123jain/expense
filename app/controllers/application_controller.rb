@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
     #     config.access_token = ENV['access_token']
     #     config.access_token_secret = ENV['access_secret']
     #   end
-    end
+    #end
 
     def insta
       InstagramApi.config do |config|
