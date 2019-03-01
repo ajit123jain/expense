@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require popper
 //= require bootstrap
+//= require social-share-button
 //= require_tree .

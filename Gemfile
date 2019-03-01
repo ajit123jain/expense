@@ -44,6 +44,7 @@ gem 'figaro'
 #gem 'devise'
 gem 'friendly_id', '~> 5.2.4'
 gem 'rails_admin', '~> 1.3'
+gem 'social-share-button'
 # Use Devise for authentication
 gem 'devise', '~> 4.2'
 # Use Omniauth Facebook plugin
