@@ -3,3 +3,4 @@ meta_title: "Expense Managment - Enjoy Your Money"
 meta_description: "Relevant description This is relevant to yourself"
 meta_image: "event.png" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
+fb_id: "314376906097148"
