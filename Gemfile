@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'bootstrap', '~> 4.2.1'  #Bootstrap dependent on jQuery so JQuey added
+gem 'bootstrap', '~> 4.3.1'  #Bootstrap dependent on jQuery so JQuey added
 gem 'jquery-rails'
 gem 'fabric-rails', '~> 1.2', '>= 1.2.1'
 # Use Capistrano for deployment
