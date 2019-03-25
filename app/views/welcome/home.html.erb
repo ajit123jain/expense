@@ -1,29 +1,3 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-  The time is now: <%= Time.now %>
-</p>
-<div class="row">
-	<div class="col-md-4 col-sm-4">
-		Ajitt Kumar Jain
-	</div>
-	<div class="col-md-4 col-sm-4">
-		Ankit Kumar Jain
-	</div>
-	<div class="col-md-4 col-sm-4">
-		<a href="#" data-toggle="tooltip" data-placement="bottom" title="How long you need to take this"><i class="fa fa-info" aria-hidden="true"></i></a>
-		Ankit Kumar Jain
-	</div>
-	<p>followers count: <%= @followerscount %></p>
-  <input type="text" name="" id="inputTwitter">
-</div>
-<%= request.original_url %> 
-<%= social_share_button_tag("Title", :url => "https://production-expense.herokuapp.com/", :image => "", desc: "The summary of page", via: "Ajit Jain") %>
-
-
-<% content_for :meta_title, "#{DEFAULT_META["meta_product_name"]} is doing testing for meta data." %>
-<% content_for :meta_description, "Home Url for Image Test" %>
-<% content_for :meta_image,  "https://manapodcastnew.s3.ap-south-1.amazonaws.com/uploads/event/image/17/event4.jpg"%>
-<% content_for :meta_url,  "#{ request.original_url }"%>
-
-
+<%= @users['results'].each do |p| %>
+	<%= p['gender'] %>
+<% end %>

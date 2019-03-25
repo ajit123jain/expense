@@ -14,6 +14,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require popper
+//= require fabric
 //= require bootstrap
 //= require social-share-button
 //= require_tree .

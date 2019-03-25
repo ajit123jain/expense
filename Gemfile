@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 4.2.1'  #Bootstrap dependent on jQuery so JQuey added
 gem 'jquery-rails'
+gem 'fabric-rails', '~> 1.2', '>= 1.2.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'koala'
@@ -47,6 +48,7 @@ gem 'rails_admin', '~> 1.3'
 gem 'social-share-button'
 # Use Devise for authentication
 gem 'devise', '~> 4.2'
+gem 'razorpay'
 # Use Omniauth Facebook plugin
 gem 'omniauth-facebook', '~> 4.0'
 # Use Omniauth Github plugin
@@ -57,13 +59,14 @@ gem 'omniauth-google-oauth2', '~> 0.4.1'
 gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
 # Use ActiveRecord Sessions
 gem 'activerecord-session_store', '~> 1.0'
+gem 'httparty'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'pry-rails'
-  gem 'dotenv-rails', '~> 2.2.1'
+  # gem 'dotenv-rails', '~> 2.2.1'
   gem 'selenium-webdriver'
   gem 'twitter'
 end
